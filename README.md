@@ -13,12 +13,19 @@ allergy-status patterns. Built with Python, Scikit-learn, Streamlit, Pandas, Num
 - **Reports** – downloadable PDF report and CSV exports
 - **Bring your own data** – upload a CSV with the same columns
 
-## Quick start
-```bash
-pip install -r requirements.txt
-python generate_dataset.py      # optional: regenerates allergy_data.csv
-streamlit run app.py
-```
+## How to run
+1. Install the dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+2. Optionally, regenerate the synthetic dataset:
+   ```bash
+   python generate_dataset.py
+   ```
+3. Start the Streamlit app:
+   ```bash
+   streamlit run app.py
+   ```
 
 ## Project layout
 | File | Purpose |
