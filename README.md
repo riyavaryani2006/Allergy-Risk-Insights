@@ -3,6 +3,9 @@
 A machine-learning healthcare analytics app that analyzes allergy-associated factors and predicts
 allergy-status patterns. Built with Python, Scikit-learn, Streamlit, Pandas, NumPy and Plotly.
 
+## Live app
+Try the deployed Streamlit app: [Allergy Risk Insights](https://allergy-risk-insights-vuhotc2ybyc5mvugvuklpn.streamlit.app/)
+
 ## Features
 - **Secure sign-in** – salted PBKDF2-hashed passwords (replaces plaintext `users.json` storage)
 - **Overview dashboard** – KPIs, allergy split, trigger ranking, seasonal rates
